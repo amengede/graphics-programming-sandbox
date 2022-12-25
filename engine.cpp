@@ -47,7 +47,7 @@ void Engine::create_color_buffer() {
 
 void Engine::render() {
 
-    glm::vec3 green = glm::vec3(32, 192, 32);
+    glm::vec3 green = glm::vec3(32.0f / 255.0f, 192.0f / 255.0f, 32.0f / 255.0f);
 
     clear_screen(green);
     //clear_screen_avx2(green);
